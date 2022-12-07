@@ -70,4 +70,21 @@ header{
     clip: rect(0,0,0,0);
     border: 0;	
   }
- 
+  .right{
+    
+    width: 50%;
+
+    float:right;
+
+}
+h4{
+  color: rgb(196, 46, 46);
+}
+.right-barra{
+    
+  width:40%;
+
+  float:right;
+
+text-align: end;
+}
