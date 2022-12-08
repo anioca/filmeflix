@@ -1,0 +1,90 @@
+header{
+    height: 55px;
+    font-size: 40px;
+
+}
+ 
+.nav-bar{
+    font-size: 20px!important;
+    display: inline-block;
+    
+}
+
+.nav-bar li{
+    list-style: none;
+}
+ hr{
+    background-color: rgb(133, 157, 202);
+    height: 2px;
+    margin-top: 25px;
+ }
+
+ .container {
+    width:50%;
+    position: relative;
+    height: 50px;
+  }
+  input {
+    height: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none;
+    z-index: 3;
+    transition: width 1s ease-out;
+    cursor: pointer;
+  }
+  input:focus { 
+    border: 1px solid rgb(209, 37, 37);
+    border-radius: 25px;
+    width: 100%;
+    z-index: 1;
+    transition: width 1s ease-in;
+  }
+  button { 
+    height: 50px;
+    width: 50px;
+    background:  url('')  center no-repeat;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+  }
+  button:focus {
+    outline: none;
+  }
+  /* esconde o LABEL "Buscar" */
+  label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;	
+  }
+  .right{
+    
+    width: 50%;
+
+    float:right;
+
+}
+h4{
+  color: rgb(196, 46, 46);
+}
+.right-barra{
+    
+  width:40%;
+
+  float:right;
+
+text-align: end;
+}
